@@ -1,0 +1,208 @@
+{
+  "$schema": "https://raw.githubusercontent.com/OpenLightingProject/open-fixture-library/schema-12.4.1/schemas/fixture.json",
+  "name": "24 Lamp LED Wash Bar",
+  "shortName": "wallwasher",
+  "categories": ["Color Changer"],
+  "meta": {
+    "authors": ["Leon Dietrich"],
+    "createDate": "2023-12-02",
+    "lastModifyDate": "2023-12-02"
+  },
+  "comment": "Generic LED Wall wash bars with 24 RGB lamps",
+  "links": {
+    "manual": [
+      "https://ledworldlighting.com/wp-content/uploads/2015/03/RGB-LED-wallwasher-User-Guide.pdf"
+    ]
+  },
+  "physical": {
+    "dimensions": [1020, 65, 65],
+    "weight": 1.8,
+    "power": 150,
+    "DMXconnector": "3-pin",
+    "bulb": {
+      "type": "LED",
+      "colorTemperature": 5000,
+      "lumens": 3800
+    }
+  },
+  "availableChannels": {
+    "Red Group1": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group1": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group1": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group2": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group2": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group2": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group3": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group3": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group3": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group4": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group4": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group4": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group5": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group5": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group5": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group6": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group6": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group6": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group7": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group7": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group7": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    },
+    "Red Group8": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Red"
+      }
+    },
+    "Green Group8": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Green"
+      }
+    },
+    "Blue Group8": {
+      "capability": {
+        "type": "ColorIntensity",
+        "color": "Blue"
+      }
+    }
+  },
+  "modes": [
+    {
+      "name": "24ch",
+      "channels": [
+        "Red Group1",
+        "Green Group1",
+        "Blue Group1",
+        "Red Group2",
+        "Green Group2",
+        "Blue Group2",
+        "Red Group3",
+        "Green Group3",
+        "Blue Group3",
+        "Red Group4",
+        "Green Group4",
+        "Blue Group4",
+        "Red Group5",
+        "Green Group5",
+        "Blue Group5",
+        "Red Group6",
+        "Green Group6",
+        "Blue Group6",
+        "Red Group7",
+        "Green Group7",
+        "Blue Group7",
+        "Red Group8",
+        "Green Group8",
+        "Blue Group8"
+      ]
+    }
+  ],
+  "fixtureKey": "24-lamp-led-wash-bar",
+  "manufacturerKey": "generic",
+  "oflURL": "https://open-fixture-library.org/generic/24-lamp-led-wash-bar"
+}
